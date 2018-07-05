@@ -10,7 +10,7 @@
 
       before(function() {
         originalFactorial = factorial;
-        factorial = sinon.spy(factorial);
+        factorial = sinon.spy(factorial); 
       });
 
       afterEach(function() {
